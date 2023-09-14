@@ -15,10 +15,12 @@ $ make
 ```
 Now Copy the pico_msd.uf2 file to rp2040 zero
 
-POSSIBLE PROBLEM WITH RP2040 ZERO: https://github.com/hathach/tinyusb/issues/1730
-                                   https://github.com/raspberrypi/pico-sdk/pull/1421
+POSSIBLE PROBLEM WITH RP2040 ZERO: 
+* https://github.com/hathach/tinyusb/issues/1730
+* https://github.com/raspberrypi/pico-sdk/pull/1421
 
-TEMPORARY SOLUTION: https://github.com/raspberrypi/pico-sdk/issues/1304
+TEMPORARY SOLUTION: 
+* https://github.com/raspberrypi/pico-sdk/issues/1304
 
 ### In Ubuntu edit the grub file:
 ```bash
