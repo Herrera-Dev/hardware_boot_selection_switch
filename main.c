@@ -35,7 +35,8 @@
 // MACRO CONSTANT TYPEDEF PROTYPES
 //--------------------------------------------------------------------+
 
-#define SWITCH_PIN 28
+#define SWITCH_PIN1 3
+#define SWITCH_PIN2 4
 
 /* Blink pattern
  * - 250 ms  : device not mounted
@@ -56,16 +57,31 @@ void cdc_task(void);
 
 uint8_t read_switch_value()
 {  
-  return gpio_get(SWITCH_PIN) ? '1' : '0';
+    if (gpio_get(SWITCH_PIN1) && !gpio_get(SWITCH_PIN2))
+    {
+        return '0';  
+    }
+    else if (!gpio_get(SWITCH_PIN1) && !gpio_get(SWITCH_PIN2))
+    {
+        return '1';  
+    }
+    else if (!gpio_get(SWITCH_PIN1) && gpio_get(SWITCH_PIN2))
+    {
+        return '2';
+    }  
 }
 
 /*------------- MAIN -------------*/
 int main(void)
 {
 
-  gpio_init(SWITCH_PIN);
-	gpio_set_dir(SWITCH_PIN, false);
-  gpio_set_pulls (SWITCH_PIN,false,true);
+  gpio_init(SWITCH_PIN1);
+	gpio_set_dir(SWITCH_PIN1, false);
+  gpio_set_pulls (SWITCH_PIN1,false,true);
+
+  gpio_init(SWITCH_PIN2);
+	gpio_set_dir(SWITCH_PIN2, false);
+  gpio_set_pulls (SWITCH_PIN2,false,true);
   
   
   board_init();
@@ -75,14 +91,12 @@ int main(void)
   while (1)
   {
     tud_task(); // tinyusb device task
-    //led_blinking_task();
-
     cdc_task();
+    //led_blinking_task();
   }
 
   return 0;
 }
-
 //--------------------------------------------------------------------+
 // Device callbacks
 //--------------------------------------------------------------------+
