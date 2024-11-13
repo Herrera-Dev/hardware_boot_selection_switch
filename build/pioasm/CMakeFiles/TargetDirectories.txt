@@ -1,0 +1,3 @@
+/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pioasm/CMakeFiles/pioasm.dir
+/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pioasm/CMakeFiles/edit_cache.dir
+/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pioasm/CMakeFiles/rebuild_cache.dir

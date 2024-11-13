@@ -1,7 +1,11 @@
 # Hardware Boot Selection Switch Using WAVESHARE RP2040 ZERO
 
-Inspired by Hackaday.io project(https://hackaday.io/project/179539-hardware-boot-selection-switch)  
+Inspired by Hackaday.io project: https://hackaday.io/project/179539-hardware-boot-selection-switch  
 Check Steps in Hackster.io: https://www.hackster.io/Madrajib/hardware-boot-select-switch-using-pico-a3e3d5
+
+<p align="center">
+  <img src="https://cdn.hackaday.io/images/2625721620074303837.jpg" alt="Switch_OS" width="800">
+</p>
 
 ### make the project
 ```bash
@@ -13,7 +17,7 @@ $ cd build
 $ cmake -DPICO_BOARD=waveshare_rp2040_zero ..
 $ make
 ```
-Now Copy the pico_msd.uf2 file to rp2040 zero
+Now Copy the `build/pico_msd.uf2` file to rp2040 zero
 
 POSSIBLE PROBLEM WITH RP2040 ZERO: 
 * https://github.com/hathach/tinyusb/issues/1730

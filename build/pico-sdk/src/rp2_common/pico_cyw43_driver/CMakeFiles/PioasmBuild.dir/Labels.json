@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule"
+		},
+		{
+			"file" : "/media/juancarlos/Usuario/USUARIO/Descargas/hardware_boot_selection_switch-master/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PioasmBuild"
+		],
+		"name" : "PioasmBuild"
+	}
+}
